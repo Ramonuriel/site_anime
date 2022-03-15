@@ -100,19 +100,24 @@ body {
     font-style: oblique;
 }
 
+.title_post{
+    padding-bottom: 70px;
+}
+section {
+    padding-left: 170px;
+    border-radius: 5px;
+}
 
 .p1 {
     background-color: #3B0939 !important;
     color: bisque;
     padding: 16px;
     text-align: center;
+    width: 1000px;
     max-width: 10000px;
     font-size: x-large;
     font-style: oblique;
-}
-
-
-.bg-footer{
-    color: bisque;
+    border-radius: 5px;
+    margin-top: 2px;
 }
 

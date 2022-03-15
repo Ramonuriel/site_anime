@@ -85,6 +85,9 @@ body {
     margin-top: 15px;
 }
 
+.d-flex{
+    padding-top: 10px;
+}
 .form-control {
     opacity: 0.5;
     align-items: baseline;
@@ -99,7 +102,7 @@ selection {
     background-color: bisque;
 }
 
-.posts {
+.title_posts {
     color: black;
     font-size: 30px;
     font-style: italic;
@@ -108,14 +111,14 @@ selection {
     padding-left: 5px;
 }
 
-.subpost {
-    background: wheat;
+.post {
+    background: bisque;
     padding: 10px;
     border-radius: 10px;
     border: 2px solid;
     color: black;
-    margin: 10px;
-    margin-top: 5px;
+    margin: 0px;
+    margin-left: 5px;
     image-rendering: optimizeSpeed;
     width: 1000px;
     max-width: 100%;
@@ -155,6 +158,26 @@ selection {
     border-radius: 20px;
 }
 
-.bg-footer{
-    color: bisque;
+.paginacao .page-numbers.current, .paginacao .page-numbers:hover {
+    background: var(--purple);
+}
+
+.paginacao {
+    color: rgb(61, 14, 61);
+    box-sizing: content-box;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.page-numbers {
+    background: rgb(61, 14, 61);
+    padding: 5px 10px;
+    font-weight: 300;
+    display: inline-block;
+    transition:  all ease;
+    font-style: oblique;
+    text-decoration: dashed;
+    color:  bisque;    
 }
