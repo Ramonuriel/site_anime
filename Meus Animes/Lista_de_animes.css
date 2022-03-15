@@ -1,0 +1,108 @@
+
+@media (max-widtht:999px){
+
+    body {
+        overflow: hidden;
+    }
+
+    .nav-item{
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background:rgb(61, 14, 61);
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+    .nav-item{
+        margin-left: 0;
+        opacity: 0;
+    }
+
+    .mobille_menu{
+        display: block;
+    }
+}
+
+.nav-item.active{
+    transform: translateX(0);
+}
+
+body {
+background-color: black !important;
+max-width: 100%;
+position: relative;
+}
+
+.barra{
+background-color: rgb(82, 16, 82);
+max-width: 2000;
+margin-inline-start: 10px;
+padding: 20px;
+text-align: center;
+
+}
+
+.navbar-brand{
+position: relative;
+max-width: 50%;
+align-items: center;
+color: bisque;
+
+}
+
+.mobille_menu{
+    cursor: pointer;
+}
+
+.mobille_menu div{
+    width: 32px;
+    height: 2px;
+    background: bisque;
+    margin: 8px;
+}
+
+.nav-item{
+position: relative;
+box-sizing: border-box;
+display:flex;
+vertical-align: top;
+padding: 10px;
+font-size: 100%;
+color: bisque;
+letter-spacing: 0px;
+margin-left: 10px;
+
+}
+
+.collapse{
+    box-sizing: content-box;
+    text-align:unset;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.form-control{
+    opacity: 0.5;
+    align-items: baseline;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: bisque !important;
+    font-style: oblique;
+}
+
+selection{
+    background-color: bisque;
+}
+.posts {
+color: black;
+font-size: 30px;
+font-style: italic;
+margin: 0px;
+margin-bottom: 15px;
+padding-left: 5px;
+}
