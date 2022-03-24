@@ -126,18 +126,16 @@ section {
 }
 
 .post {
+    position: relative;
+    display: inline-block;
+    height: 420px;
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 15px;
     background: black;
     box-sizing: border-box;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid;
-    color: black;
-    margin: 0px;
-    margin-left: 5px;
-    image-rendering: optimizeSpeed;
-    max-width: 100%;
-    width: 63%;
-    float: inline-start;
+    margin-top: 10px;
+
 }
 
 .lista {
@@ -147,13 +145,15 @@ section {
     text-align: start;
     align-items: flex-start;
     padding-left: 10px;
+    font-style: oblique;
 }
 
 .content {
     font-style: normal;
     margin-top: 10px;
     color: bisque;
-    background-color: rgb(82, 16, 82);
+    background: linear-gradient(#1a011d, #0d040e);
+    box-shadow: 0 15px 25px rgba(51, 2, 47, 0.6);
     margin-bottom: 15px;
     text-transform: capitalize;
     text-align:start;
@@ -181,18 +181,17 @@ section {
 }
 
 .subpost{
-    background: bisque;
+    position: absolute;
+    height: 420px;
+    width: 50%;
+    padding-top: 10px;
+    border-radius: 15px;
+    background: linear-gradient(#1a011d, #0d040e);
     box-sizing: border-box;
-    padding: 10px;
-    border-radius: 10px;
-    border: 2px solid;
-    color: black;
-    margin: 0px;
-    margin-left: 5px;
-    image-rendering: optimizeSpeed;
-    max-width: 100%;
-    width: 40%;
-    float: inline-end
+    box-shadow: 0 15px 25px rgba(51, 2, 47, 0.6);
+    top: 200px;
+    padding-left: 200px;
+
 }
 
 .paginacao .page-numbers.current, .paginacao .page-numbers:hover {

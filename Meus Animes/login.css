@@ -99,8 +99,8 @@ body {
 .login-box {
     position: relative;
     display: inline-block;
-    top: 0px;
-    height: 400px;
+    top: -20px;
+    height: 420px;
     width: 35%;
     padding: 100px;
     padding-top: 10px;
@@ -114,8 +114,8 @@ body {
 .cadastro-box {
     position: relative;
     display: inline-block;
-    top: 40px;
-    height: 400px;
+    top: 50px;
+    height: 420px;
     width: 35%;
     padding: 100px;
     padding-top: 40px;
@@ -156,7 +156,7 @@ body {
 
 .login-box .user-box input{
     width: 100%;
-    padding: 10px ;
+    padding: 20px 10px 0px;
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
@@ -169,7 +169,7 @@ body {
 
 .cadastro-box .user-box input{
     width: 100%;
-    padding: 10px 0px 0px;
+    padding: 20px 0px 0px;
     font-size: 16px;
     color: #fff;
     margin-bottom: 30px;
@@ -182,7 +182,7 @@ body {
 
 .login-box .user-box label{
     position: absolute;
-    padding: 10px 0;
+    padding: 0px 0;
     font-size: 16px;
     color: #fff;
     pointer-events: none;
@@ -191,7 +191,7 @@ body {
 
 .cadastro-box .user-box label{
     position: absolute;
-    padding: 10px 0;
+    padding: 0px 0;
     font-size: 16px;
     color: #fff;
     pointer-events: none;
