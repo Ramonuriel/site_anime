@@ -181,16 +181,17 @@ section {
 }
 
 .subpost{
-    position: absolute;
+    display: grid;
+    position: relative;
     height: 420px;
-    width: 50%;
+    width: 40%;
     padding-top: 10px;
     border-radius: 15px;
     background: linear-gradient(#1a011d, #0d040e);
-    box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(51, 2, 47, 0.6);
-    top: 200px;
     padding-left: 200px;
+    margin: 58%;
+    top: -3700px;
 
 }
 
